@@ -1,0 +1,37 @@
+{
+  "url": {
+    "name": "srsselector",
+    "separator": "*"
+  },
+  "constructor": "M.plugin.SRSselector",
+  "parameters": [{
+    "type": "object",
+    "properties": [{
+      "type": "enum",
+      "name": "position",
+      "possibleValues": ["TR", "TL", "BL", "BR"],
+      "position": 0
+    }, {
+      "type": "object array",
+      "name": "projections",
+      "position": 1
+    }]
+  }],
+  "files": {
+    "ol": {
+      "scripts": [],
+      "styles": []
+    }
+  },
+  "metadata": {
+    "name": "SRSselector",
+    "description": "Gives different SRS choices",
+    "text": "Shows list of SRS to choose for the map",
+    "version": "1.0.0",
+    "date": "",
+    "author": "",
+    "org": "",
+    "tags": "mapea,plugin",
+    "icon": "./facade/assets/icons/icons.svg"
+  }
+}
