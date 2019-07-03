@@ -19,8 +19,8 @@
   }],
   "files": {
     "ol": {
-      "scripts": [],
-      "styles": []
+      "scripts": "srsselector.ol.min.js",
+      "styles": "srsselector.min.css"
     }
   },
   "metadata": {
