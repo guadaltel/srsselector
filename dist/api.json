@@ -20,7 +20,7 @@
   "files": {
     "ol": {
       "scripts": "srsselector.ol.min.js",
-      "styles": "srsselector.min.css"
+      "styles": "srsselector.ol.min.css"
     }
   },
   "metadata": {
