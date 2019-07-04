@@ -25,12 +25,12 @@
   },
   "metadata": {
     "name": "SRSselector",
-    "description": "Gives different SRS choices",
-    "text": "Shows list of SRS to choose for the map",
+    "description": "Cambio de proyección",
+    "text": "Te permite cambiar la proyección del mapa.",
     "version": "1.0.0",
-    "date": "",
+    "date": "Jun 26, 2019",
     "author": "",
-    "org": "",
+    "org": "Instituto de Estadística y Cartografía",
     "tags": "mapea,plugin",
     "icon": "./facade/assets/icons/icons.svg"
   }
