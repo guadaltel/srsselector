@@ -4,19 +4,29 @@
     "separator": "*"
   },
   "constructor": "M.plugin.SRSselector",
-  "parameters": [{
-    "type": "object",
-    "properties": [{
-      "type": "enum",
-      "name": "position",
-      "possibleValues": ["TR", "TL", "BL", "BR"],
-      "position": 0
-    }, {
-      "type": "object array",
-      "name": "projections",
-      "position": 1
-    }]
-  }],
+  "parameters": [
+    {
+      "type": "object",
+      "properties": [
+        {
+          "type": "enum",
+          "name": "position",
+          "possibleValues": [
+            "TR",
+            "TL",
+            "BL",
+            "BR"
+          ],
+          "position": 0
+        },
+        {
+          "type": "object array",
+          "name": "projections",
+          "position": 1
+        }
+      ]
+    }
+  ],
   "files": {
     "ol": {
       "scripts": "srsselector.ol.min.js",
@@ -28,7 +38,7 @@
     "description": "Cambio de proyección",
     "text": "Te permite cambiar la proyección del mapa.",
     "version": "1.0.0",
-    "date": "Jun 26, 2019",
+    "date": "Diciembre, 2019",
     "author": "",
     "org": "Instituto de Estadística y Cartografía",
     "tags": "mapea,plugin",
