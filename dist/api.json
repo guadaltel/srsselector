@@ -20,8 +20,8 @@
   }],
   "files": {
     "ol": {
-      "scripts": "srsselector.ol.min.js",
-      "styles": "srsselector.ol.min.css"
+      "scripts": ["srsselector.ol.min.js"],
+      "styles": ["srsselector.ol.min.css"]
     }
   },
   "metadata": {
